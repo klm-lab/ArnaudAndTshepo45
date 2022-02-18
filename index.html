@@ -11,15 +11,29 @@
     <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo mollitia laboriosam culpa iste soluta voluptates sint qui nam itaque fuga voluptatem error, esse tempore quidem aliquid veniam voluptas quas ad?</p>
     <form action="" id="survey-form">
       <label id="name-label" for="name">Your name</label>
-      <input type="text" required name="name" id="name">
+      <input placeholder="Enter your name" type="text" required name="name" id="name">
       <label id="email-label" for="email">Your email</label>
-      <input type="email" required name="email" id="email">
+      <input placeholder="Enter your password" type="email" required name="email" id="email">
       <label id="number-label" for="number">Your number</label>
-      <input type="number" min="3" max="10" required name="number" id="number">
-      <select name="options" id="option">
+      <input placeholder="Enter your number" type="number" min="3" max="10" required name="number" id="number">
+      <select name="options" id="dropdown">
         <option value="option-1">Option 1</option>
         <option value="option-2">Option 2</option>
       </select>
+      <label for="group-1">12</label>
+      <input id="group-1" type="radio" name="group-1" value="12" >
+      <label for="group-2">14</label>
+      <input id="group-2" type="radio" name="group-1" value="12" >
+      <input type="radio" name="group-1" value="14" >
+      <input type="checkbox" name="chec-1" value="Red">
+      <input type="checkbox" name="chec-1" value="Blue">
+      <input type="checkbox" name="chec-1" value="Green">
+      <input type="checkbox" name="chec-1" value="Yellow">
+      <input type="checkbox" name="chec-1" value="Purple">
+      <input type="checkbox" name="chec-1" value="White">
+      <input type="checkbox" name="chec-1" value="Black">
+      <textarea></textarea>
+      <button id="submit" type="submit">Submit</button>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
